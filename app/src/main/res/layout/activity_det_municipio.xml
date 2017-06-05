@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorButtonNormal"
+    tools:context="com.example.narino.DetMunicipio">
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="497dp"
+        android:layout_height="188dp"
+        android:layout_weight="1"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/txtMun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView11"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Hello World!"
+        android:textSize="15dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView15"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView15"
+        android:layout_marginBottom="16dp"
+        android:onClick="web"
+        android:text="Pagina Web" />
+
+    <TextView
+        android:id="@+id/txtAlc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView12"
+        android:layout_alignBottom="@+id/textView12"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_toEndOf="@+id/textView14"
+        android:layout_toRightOf="@+id/textView14"
+        android:paddingTop="0dp"
+        android:text="New Text" />
+
+    <TextView
+        android:id="@+id/txtEma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtAlc"
+        android:layout_alignStart="@+id/txtAlc"
+        android:layout_below="@+id/txtAlc"
+        android:layout_marginTop="22dp"
+        android:paddingTop="0dp"
+        android:text="New Text" />
+
+    <TextView
+        android:id="@+id/txtDir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:paddingTop="0dp"
+        android:text="New Text"
+        android:layout_below="@+id/txtEma"
+        android:layout_alignLeft="@+id/txtEma"
+        android:layout_alignStart="@+id/txtEma" />
+
+    <TextView
+        android:id="@+id/txtTel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtDir"
+        android:layout_alignStart="@+id/txtDir"
+        android:layout_below="@+id/txtDir"
+        android:layout_marginTop="28dp"
+        android:paddingTop="0dp"
+        android:text="New Text" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/videoView"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="17dp"
+        android:text="MUNICIPIO DE:"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView11"
+        android:layout_alignStart="@+id/textView11"
+        android:layout_below="@+id/txtMun"
+        android:layout_marginTop="8dp"
+        android:paddingTop="0dp"
+        android:text="Alcalde:" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtEma"
+        android:layout_alignBottom="@+id/txtEma"
+        android:layout_alignLeft="@+id/textView14"
+        android:layout_alignStart="@+id/textView14"
+        android:paddingTop="0dp"
+        android:text="Email:" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/txtDir"
+        android:layout_alignLeft="@+id/textView12"
+        android:layout_alignStart="@+id/textView12"
+        android:paddingTop="0dp"
+        android:text="Direccion:" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtTel"
+        android:layout_alignBottom="@+id/txtTel"
+        android:layout_alignLeft="@+id/textView14"
+        android:layout_alignStart="@+id/textView14"
+        android:paddingTop="0dp"
+        android:text="Telefono:" />
+
+</RelativeLayout>

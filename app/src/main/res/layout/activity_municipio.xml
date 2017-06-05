@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    tools:context="com.example.narino.Municipio">
+
+    Button
+        android:id="@+id/nomMun"
+        android:layout_width="91dp"
+        android:layout_height="48dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="457dp" />
+
+    <WebView
+        android:id="@+id/web1"
+        android:layout_width="369dp"
+        android:layout_height="509dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="-2dp" />
+</android.support.constraint.ConstraintLayout>
